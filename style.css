@@ -86,6 +86,22 @@ footer{
     background: #ebebeb;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+.homework {
+    padding:20px;
+    color: white;
+}
+@media only screen and (mix-width: 640px) {
+    .homework {background: red;}
+    }
+@media only screen and (min-width: 640px) {
+    .homework {background: green;}
+    }    
 
-
+@media only screen and (min-width: 768px) {
+    .homework {background: brown;}
+    
+  }
+  @media only screen and (min-width: 980px) {
+      .homework {background: crimson;}
 }
